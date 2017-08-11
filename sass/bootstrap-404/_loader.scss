@@ -1,0 +1,10 @@
+.ac-loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(../img/asset/loader.gif) center no-repeat #fff; 
+}
+.ac-scroll-loader{ overflow-x:scroll; overflow-y:hidden; }

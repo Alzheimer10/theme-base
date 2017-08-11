@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>THEME BY CARLOS ANSELMI | BOOTSTRAP 3 </title>
+		<title>Theme by Anselmi404 | BOOTSTRAP 3 </title>
 	    <meta charset="utf-8">
 	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -36,14 +36,20 @@
 		<link rel="stylesheet" href="vendor/link_effects/css/link_effects.css">
 		<!-- photoswipe -->
 		<link rel="stylesheet" href="vendor/photoswipe/css/photoswipe.css">
+		<!-- Theme Anselmi  -->
+		<link rel="stylesheet" href="css/bootstrap-404.css">
 		<!-- Theme style  -->
 		<link rel="stylesheet" href="css/master.css">
 
 	</head>
-	<body class="az-hidden" style="min-height: 10000px">
+	<body class="ac-scroll-loader" style="min-height: 10000px">
 		<!-- Load-screen -->
-		<div class="az-loader"></div>
+		<div class="ac-loader"></div>
 
+
+		<div class="ac-gototop gototop-square" onclick="$('body').animatescroll({scrollSpeed:2000,easing:'easeOutBack'});" >
+			<a href="#" class="js-gotop"><i class="fa fa-chevron-up fa-x2" aria-hidden="true"></i></a>
+		</div>
 
 		<!-- jQuery -->
 		<script src="vendor/jquery/jquery.min.js"></script>
@@ -71,6 +77,8 @@
 		<script src="vendor/scrollreveal/scrollreveal.min.js"></script>
 		<!-- typing  -->
 		<script src="vendor/typing/js/typing.js"></script>
+		<!-- validate -->
+		<script src="vendor/bootstrap-validator/js/bootstrap-validator.js"></script>
 		<!-- Main -->
 		<script src="js/master.js"></script>
 
